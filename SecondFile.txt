@@ -1,5 +1,5 @@
 Hello
-im ali moeinian.
+
 student of computer software engineering.
 i start to change my txt file from nano in git bash.
 now im going to save my file and figure out the change.
