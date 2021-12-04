@@ -28,11 +28,16 @@ def average(number1,number2):
 def sqrt(number1,number2):
     sqrt_number1 = math.sqrt(number1)
     sqrt_number2 = math.sqrt(number2)
-    return "Square Root of number1 : " + str(sqrt_number1) + " and Square Root number2 : " + str(sqrt_number2)   
+    return "Square Root of number1 : " + str(sqrt_number1) + " and Square Root number2 : " + str(sqrt_number2) 
+def factorial(number1,number2):
+    fact_number1 = math.factorial(int(number1))
+    fact_number2 = math.factorial(int(number2))
+    return "factorial of number1 : " + str(fact_number1) + " and factorial number2 : " + str(fact_number2)
+
 
 number1=float(input("Please enter number 1 : "))
 number2=float(input("Please enter number 2 : "))
-list_operators = input("Please choose the operator you want : + - * / % // cos() sin() tan() pow, sqrt, avg, factorial  :  ")
+list_operators = input("Please choose the operator you want : + - * / % // sin() tan() pow, sqrt, avg, factorial  :  ")
 
 if list_operators == "+":
     print(addition(number1, number2))
@@ -66,6 +71,9 @@ elif list_operators == "sqrt":
 
 elif list_operators == "avg":
     print(average(number1, number2))
+
+elif list_operators == "factorial":
+    print(factorial(number1, number2))
 
 
 else:
