@@ -1,3 +1,6 @@
 print('line 1 :' + str(2+2))
 print('line 2 :' + str(2*2))
 print('line 3 :' + str(148//2))
+print('line 4 :' + str(2**3))
+print('line 5 :' + str(125/5))
+print('line 6 :' + str(120%6))
